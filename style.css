@@ -1,0 +1,80 @@
+/*This is default marging settings, if i want then i can do it and it is called reset code  * {
+  margin: 0;
+  padding: 0;
+
+css reset code
+}*/
+label,
+input,
+select,
+textarea {
+  display: block;
+} /* উপরের সবাইকে একই লাইনে আনার জন্য display block করা হয়েছে।*/
+.box {
+  height: 200px;
+  width: 350px;
+  background-color: green;
+  border: 5px solid black;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 48px;
+  padding-left: 120px;
+  box-sizing: border-box;
+}
+.b01 {
+  height: 300px;
+  width: 300px;
+  margin: -320px 900px;
+
+  background-color: red;
+  border: 5px solid black;
+
+  box-sizing: border-box;
+}
+
+img {
+  height: 200px;
+  float: left; /* --------------------------------------------------------------- Learning Float*/
+  margin-right: 10px;
+}
+.mini-box {
+  height: 150px;
+  width: 150px;
+  margin-top: -30px;
+  margin-left: -25px;
+  border-radius: 100px;
+  background-color: red;
+}
+.pad {
+  /*padding-top: 10px;
+  padding-bottom: 10px;*/
+  padding: 20px 40px 60px 80px;
+  margin-bottom: 10px;
+  background-color: olivedrab;
+}
+table {
+  border: 20px solid white;
+  /*border: 2px solid black;------- for another design*/
+  border-collapse: collapse;
+  margin-top: -490px;
+  margin-left: 450px;
+  /*margin: -450px auto;*/
+}
+th,
+td {
+  /*border-bottom: 20px solid white;------ for another design*/
+  border: 20px solid white;
+  /*border: 2px solid black;------- for another desing*/
+  font-size: 20px;
+  text-align: center;
+  padding: 15px 30px;
+  margin: 0 auto;
+}
+th {
+  background-color: darkgoldenrod;
+}
+td {
+  background-color: darkgrey;
+}
